@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 /**
  * Created by 311198 on 2017/2/16.
+ * 文件读取
  */
 public class IoStreamTest {
 

@@ -2,6 +2,7 @@ import org.junit.Test;
 
 /**
  * Created by 311198 on 2017/3/14.
+ * String的常量池 值&地址比较
  */
 public class StringTest {
 

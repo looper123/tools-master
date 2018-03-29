@@ -4,6 +4,7 @@ import java.util.*;
 
 /**
  * Created by 311198 on 2017/3/2.
+ * 各类迭代方法
  */
 public class CollectionTest {
 

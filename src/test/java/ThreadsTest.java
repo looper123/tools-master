@@ -1,4 +1,4 @@
-import com.quark.entity.ThreadMethod;
+import com.quark.thread.ThreadMethod;
 
 /**
  * Created by 311198 on 2017/2/27.
