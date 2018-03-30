@@ -5,7 +5,7 @@ package com.quark.entity;
  */
 public class Zi extends Fu {
 
-    static int a = 20000;//静态成员
+    public static int a = 20000;//静态成员
 
     int  b = 20;//普通成员
 

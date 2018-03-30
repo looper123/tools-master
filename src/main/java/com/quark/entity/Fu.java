@@ -5,9 +5,9 @@ package com.quark.entity;
  */
 public class Fu {
 
-    static int a = 1000; //静态成员
+    public static int a = 1000; //静态成员
 
-    int b = 10;//普通成员
+    public int b = 10;//普通成员
 
     static {
         System.out.println("父类的静态代码块");

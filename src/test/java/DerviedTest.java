@@ -1,28 +1,26 @@
-package com.quark.entity;
-
 /**
  * Created by 311198 on 2017/3/16.
  */
-public class Dervied extends Base {
+public class DerviedTest extends Base {
 
 
         private String name = "dervied";
 
-        public Dervied() {
+        public DerviedTest() {
             tellName();
             printName();
         }
 
         public void tellName() {
-            System.out.println("com.quark.entity.Dervied tell name: " + name);
+            System.out.println("DerviedTest tell name: " + name);
         }
 
         public void printName() {
-            System.out.println("com.quark.entity.Dervied print name: " + name);
+            System.out.println("DerviedTest print name: " + name);
         }
 
         public static void main(String[] args){
 
-            new Dervied();
+            new DerviedTest();
     }
 }
