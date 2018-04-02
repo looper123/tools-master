@@ -16,6 +16,9 @@ public class ProviderAndConsumer {
     private Condition providerCondition = reentrantLock.newCondition();
     private Condition consumerCondition = reentrantLock.newCondition();
 
+
+
+
     public void providerAllAwait() {
         try {
             reentrantLock.lock();
