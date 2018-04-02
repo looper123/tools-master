@@ -15,11 +15,13 @@ public class MyConsumer {
         synchronized (lock) {
             while (true) {
                 if (pList.size() == 0) {
+//                    线程被唤醒后 会继续往下执行代码 而不是从头开始
                     lock.wait();
+                }else {
+                    pList.remove("product");
+                    System.out.println(Thread.currentThread().getName() + "----consumer----" + pList.size());
+                    lock.notifyAll();
                 }
-                pList.remove("product");
-                System.out.println(Thread.currentThread().getName() + "----consumer----" + pList.size());
-                lock.notifyAll();
             }
         }
     }

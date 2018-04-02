@@ -15,6 +15,7 @@ public class MyProvider {
          synchronized (lock){
              while(true){
                  if(pList.size() >=100){
+//                    线程被唤醒后 会继续往下执行代码 而不是从头开始
                      lock.wait();
                  }
                  pList.add("product");
