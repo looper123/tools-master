@@ -1,6 +1,7 @@
 import com.quark.lock.PartSignalConsumerThread;
 import com.quark.lock.PartSignalProviderThread;
 import com.quark.lock.ProviderAndConsumer;
+import org.junit.Test;
 
 /**
  * Created by ZhenpengLu on 2018/3/30.
@@ -21,4 +22,6 @@ public class DifferentConditionWithProAndConTest {
         threadB_1.start();
         threadB_2.start();
     }
+
+
 }
